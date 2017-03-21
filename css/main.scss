@@ -1,11 +1,18 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
 $scotch-primary: rgb(255, 69, 69);
 $scotch-secondary: #FF7B7B;
 
-%heading_font { font-family: 'heading_font', cursive; }
-%body_font { font-family: 'Amatic SC', cursive; }
+%heading_font { font-family: 'Tangerine', cursive; }
+%amatic { font-family: 'Amatic SC', cursive; }
+
 
 body {
-    @extend %body_font;
+    @extend %amatic;
     font-size: 18px;
     line-height: 30px;
     padding-top: 51px;
@@ -33,7 +40,7 @@ h1, h2, h3, h4, h5, h6 { @extend %heading_font; }
     background: #086AFF;
     color: #fff;
 }
-nav.navbar {
+.navbar {
     margin: 0;
 
     a {
@@ -46,13 +53,19 @@ nav.navbar {
 
         i {
             transition: inherit;
-            color: $scotch-primary;
             transform: scale(1);
         }
 
+        .icon-home {
+          background-image: url('/img/home.png');
+          background-size: cover;
+          width: 30px;
+          height: 25px;
+          display: block;
+        }
+
         &:hover i {
-            color: rgb(255, 111, 111);
-            transform: scale(1.35);
+            transform: scale(1.2);
         }
     }
 }
