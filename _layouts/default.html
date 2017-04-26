@@ -1,15 +1,16 @@
 {% include header.html %}
 
-    {% include title-group.html %}
-
-    <main>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                  {{ content }}
-                </div>
+<main class="{{page.container}}">
+    <div class="container" id="max-size-container">
+        {% include nav.html %}
+        <div class="row">
+            <div class="col-md-12 content-wrapper">
+              {{ content }}
             </div>
         </div>
-    </main>
-
-{% include footer.html %}
+    </div>
+</main>
+<!-- JavaScript -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="{{ site.data.global.url }}/js/power.js"></script>

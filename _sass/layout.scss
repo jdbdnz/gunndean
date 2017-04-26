@@ -1,0 +1,106 @@
+html {
+  background-color: #555;
+  height: 100%;
+
+  body {
+    background-color: inherit;
+    font-family: 'Skia', Ariel, sans-serif;
+    color: #fff;
+    height: 100%;
+    font-size: 18px;
+    line-height: 30px;
+    -webkit-font-smoothing: antialiased;
+
+    h1 {
+      font-size: 2.3em;
+      text-shadow: 0px 0px 13px #000;
+      line-height: 1.5em;
+    }
+
+    h2 {
+      font-size: 1.5em;
+      margin: 50px 0;
+    }
+
+    a.btn {
+      font-size: 2em;
+      padding: 10px 30px 5px;
+      background: rgba(255,255,255,0.4);
+      color: #fff;
+      width: 100%;
+    }
+
+    p {
+        margin-bottom: 30px;
+        font-size: 1.2em;
+    }
+
+    section, header, footer, main, article, nav, aside { position: relative; }
+    a {
+        outline: none !important;
+        text-decoration: none !important;
+        transition: all 225ms ease;
+        color: $scotch-secondary;
+
+        &:hover { color: #6165FF; }
+    }
+    .btn {
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+    ::selection {
+        background: #FE9AA6;
+        color: #fff;
+    }
+    .navbar {
+        margin: 0;
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        background-position: center center;
+        background-size: cover;
+        border-radius: 0;
+
+        .navbar-brand {
+            i {
+                transition: inherit;
+                transform: scale(1);
+            }
+
+            &:hover i {
+                transform: scale(1.2);
+            }
+
+            .icon-home {
+              background-image: url('../img/home.png');
+              background-size: cover;
+              width: 30px;
+              height: 25px;
+              display: block;
+            }
+        }
+    }
+
+    main {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url('../img/bg.png');
+
+      > .container {
+        position: relative;
+        background-size: cover;
+        background-position: center bottom;
+        height: 100%;
+        width: 100%;
+        max-height: 1500px;
+        max-width: 1000px;
+      }
+    }
+  }
+}
