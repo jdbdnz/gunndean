@@ -26,3 +26,5 @@ If you have something that you <em>really really</em> want to give to us, you ma
 We love you all and can't wait to see you on our happy day in September.
 
 <3 Josh + Aaron
+
+P.S. Please remember to <a href="rsvp">RSVP</a>
