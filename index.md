@@ -21,3 +21,6 @@ container: index
 </p>
 
 <a class="btn btn-default" href="rsvp">RSVP</a>
+<br />
+<br />
+<a class="btn btn-default" target="_blank" href="http://registered.at/gunndean">Registry</a>
