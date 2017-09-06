@@ -15,9 +15,9 @@ container: index
   Friday September 29th, 2017
 </p>
 <p>
-  Eagle Ranch,
+  Colibri Gardens,
   <br />
-  Belle Center Road, Washougal
+  1222 Belle Center Road, Washougal
 </p>
 
 <a class="btn btn-default" href="rsvp">RSVP</a>
